@@ -15,7 +15,7 @@ def build(v, l, r):
 def update(v, l, r, i, x):
     if i < l or i >= r:
         return
-    if l + 1== r:
+    if l + 1 == r:
         arr[i] = x
         tree[v] = x
         return
