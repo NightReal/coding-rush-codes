@@ -1,4 +1,4 @@
-tree = [0 for i in range(MAXN)]
+tree = [0] * MAXN
 
 
 def add(i, x):
